@@ -1,16 +1,16 @@
 {
-    "version": "0.6.2",
+    "version": "0.7.0",
     "description": "Free, portable local web server control panel for Windows (Apache, MySQL, PHP, Node.js, Mailpit, Redis).",
     "homepage": "https://github.com/phmrmkv/Ninho",
     "license": "MIT OR GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/phmrmkv/Ninho/releases/download/v0.6.2/Ninho-x64.exe#/ninho.exe",
-            "hash": "ebee06b4fb8082a4f5f8a60413faca1974067ed66ebdba5fe653e30f4f099de1"
+            "url": "https://github.com/phmrmkv/Ninho/releases/download/v0.7.0/Ninho-x64.exe#/ninho.exe",
+            "hash": "c4d39352cf25e773cf8c880d12a052a7dadef0fe7efd676c518c573e85e39ca0"
         },
         "32bit": {
-            "url": "https://github.com/phmrmkv/Ninho/releases/download/v0.6.2/Ninho-x86.exe#/ninho.exe",
-            "hash": "116f4f0c2613a785856cfea1fa905d8809a7285a8cff3b57f6e40b45701c0f2c"
+            "url": "https://github.com/phmrmkv/Ninho/releases/download/v0.7.0/Ninho-x86.exe#/ninho.exe",
+            "hash": "b770bde998f0d3f070716755840caf4c30bcb761a146c23be6e38b2f19556516"
         }
     },
     "bin": "ninho.exe",
