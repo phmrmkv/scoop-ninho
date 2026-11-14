@@ -1,0 +1,42 @@
+{
+    "version": "0.6.2",
+    "description": "Free, portable local web server control panel for Windows (Apache, MySQL, PHP, Node.js, Mailpit, Redis).",
+    "homepage": "https://github.com/phmrmkv/Ninho",
+    "license": "MIT OR GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/phmrmkv/Ninho/releases/download/v0.6.2/Ninho-x64.exe#/ninho.exe",
+            "hash": "ebee06b4fb8082a4f5f8a60413faca1974067ed66ebdba5fe653e30f4f099de1"
+        },
+        "32bit": {
+            "url": "https://github.com/phmrmkv/Ninho/releases/download/v0.6.2/Ninho-x86.exe#/ninho.exe",
+            "hash": "116f4f0c2613a785856cfea1fa905d8809a7285a8cff3b57f6e40b45701c0f2c"
+        }
+    },
+    "bin": "ninho.exe",
+    "shortcuts": [
+        [
+            "ninho.exe",
+            "Ninho"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/phmrmkv/Ninho/releases/download/v$version/Ninho-x64.exe#/ninho.exe",
+                "hash": {
+                    "url": "https://github.com/phmrmkv/Ninho/releases/download/v$version/SHA256SUMS.txt",
+                    "regex": "([a-fA-F0-9]{64})\\s+Ninho-x64\\.exe"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/phmrmkv/Ninho/releases/download/v$version/Ninho-x86.exe#/ninho.exe",
+                "hash": {
+                    "url": "https://github.com/phmrmkv/Ninho/releases/download/v$version/SHA256SUMS.txt",
+                    "regex": "([a-fA-F0-9]{64})\\s+Ninho-x86\\.exe"
+                }
+            }
+        }
+    }
+}
